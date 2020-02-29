@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row mt-5 justify-content-center align-items-center ">
+    <div class="jumbotron">
+      <h1 class="display-4">Beanworks Xero Integration</h1>
+      <p class="lead">This application can be used to fetch Accounts and Vendors from XERO accounting application</p>
+      <hr class="my-4">
+        <p>To use, please click <em>connect</em> button as follows. Then login to your xero account and finally click the (account or vendor) button to get the data</p>
+    </div>
+</div>
+<div class="row justify-content-center align-items-center ">
+    <button type="button" id= "connect-button" class="col btn btn-primary btn-lg btn-block" style="text-align: center;">Connect</button>
+</div>
+<script>
+    document.getElementById("connect-button").addEventListener("click", (e) => {
+        let url = `${window.location}login`;
+        window.location.replace(url);
+    });
+</script>
+{% endblock %}

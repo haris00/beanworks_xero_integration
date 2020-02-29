@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="alert alert-info" role="alert" >
+  <h4 class="alert-heading">Beanworks Xero Integration</h4>
+  <p>Click the following buttons to get the data.</p>
+</div>
+
+<div class="row">
+    <div class="col mt-2">
+        <button type="button" id= "accounts-button" class="btn btn-primary btn-lg btn-block">Accounts</button>
+    </div>
+    <div class="col mt-2">
+        <button  type="button" id= "vendors-button" class="btn btn-primary btn-lg btn-block">Vendors</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col mt-2">
+        <ul class="list-group" id="accounts-list">
+        </ul>
+    </div>
+    <div class="col mt-2">
+        <ul class="list-group" id="vendors-list">
+        </ul>
+    </div>
+</div>
+<script>
+    let handleVendors = function(vendors){
+        let vendorList = document.getElementById("vendors-list");
+           vendors.forEach(vendor => {
+                let newLi =  document.createElement('li');
+                newLi.className= 'list-group-item';
+                newLi.appendChild(document.createTextNode(vendor));
+                vendorList.appendChild(newLi);
+              });
+      let btn = document.getElementById("vendors-button");
+      btn.disabled = true;
+      btn.classList.add('disabled')
+    }
+
+    let handleAccounts = function(accounts){
+       let accountList = document.getElementById("accounts-list");
+       accounts.forEach(account => {
+            let newLi =  document.createElement('li');
+            newLi.className= 'list-group-item';
+            newLi.appendChild(document.createTextNode(account));
+            accountList.appendChild(newLi);
+          });
+        let btn = document.getElementById("accounts-button");
+        btn.disabled = true;
+        btn.classList.add('disabled')
+    }
+
+    document.getElementById("vendors-button").addEventListener("click", (e) => {
+        let url = `${window.location.protocol}//${window.location.host}/vendors`;
+        fetch(url).then((response)=> response.json()).then(handleVendors).catch(error=> console.log(error));
+    });
+
+    document.getElementById("accounts-button").addEventListener("click", (e) => {
+        let url = `${window.location.protocol}//${window.location.host}/accounts`;
+        fetch(url).then((response)=> response.json()).then(handleAccounts).catch(error=> console.log(error));
+    });
+</script>
+{% endblock %}
