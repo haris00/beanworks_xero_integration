@@ -1,1 +1,1 @@
-web: gunicorngit --chdir beanworks_xero_integration app:app
+web: gunicorn --chdir beanworks_xero_integration app:app
