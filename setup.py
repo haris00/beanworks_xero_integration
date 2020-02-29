@@ -14,6 +14,7 @@ setup(
                       'Flask',
                       'oauthlib',
                       'Flask-Login',
+                      'gunicorn',
                       'pyopenssl'],
     entry_points={}
 )
