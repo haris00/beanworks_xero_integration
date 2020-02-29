@@ -1,1 +1,1 @@
-web: gunicorngit app:app
+web: gunicorngit beanworks_xero_integration app:app
