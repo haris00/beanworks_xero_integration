@@ -1,0 +1,1 @@
+web: gunicorngit  beanworks_xero_integration:app
