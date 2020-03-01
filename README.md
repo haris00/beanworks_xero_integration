@@ -62,7 +62,7 @@ The following image will give you an idea of how the application requests flow.
 ## Screenshots
 Following are application screenshots
 
-![Page1](/artifacts/SS1.jpg)
-![Page2](/artifacts/SS2.jpg)
-![Page3](/artifacts/SS3.jpg)
+![Page1](/artifacts/SS1.JPG)
+![Page2](/artifacts/SS2.JPG)
+![Page3](/artifacts/SS3.JPG)
 
