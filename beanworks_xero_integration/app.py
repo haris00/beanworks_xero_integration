@@ -117,8 +117,11 @@ def get_data_xero (endpoint):
     headers[constants.ACCEPT] = constants.JSON_HEADER
     response = requests.get(uri, headers=headers, data=body).json()
     if response['Status'] != 'OK':
-        LOGGER.error('Error fetching data from URL: {}'.format(endpoint))
-        return None
+        # retry once more
+        response = requests.get(uri, headers=headers, data=body).json()
+        if response['Status'] != 'OK':
+            LOGGER.error('Error fetching data from URL: {}'.format(endpoint))
+            return None
     LOGGER.info("Data successfully received")
     return response
 
