@@ -54,4 +54,15 @@ Navigate to directory and Run the file `python beanworks_xero_integration/app.py
 (This will start the server). Navigate to the `localhost:5000` and you can view the main page.
 All the logs will be stored in `logs/beanworks.log` 
 
+## Application Sequence diagram
+The following image will give you an idea of how the application requests flow.
+
+![Application_Sequence_Diagram](/artifacts/Xero_Integration_Sequence.jpg)
+
+## Screenshots
+Following are application screenshots
+
+![Page1](/artifacts/SS1.jpg)
+![Page2](/artifacts/SS2.jpg)
+![Page3](/artifacts/SS3.jpg)
 
