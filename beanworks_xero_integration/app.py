@@ -125,5 +125,5 @@ def get_data_xero (endpoint):
 
 # --------------- RUN FLASK ----------------------
 if __name__ == "__main__":
-    app.run(ssl_context="adhoc")
+    app.run(ssl_context="adhoc", port = config['FLASK_PORT'])
 

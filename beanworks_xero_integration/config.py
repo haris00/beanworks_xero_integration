@@ -9,5 +9,6 @@ config = {
     'PATH_TO_LOG_FILE': 'logs/beanworks.log',
     'LOG_FORMAT': '%(asctime)s - %(message)s',
     'CLIENT_ID': "", # To be set from Env Variable
-    'CLIENT_SECRET': "" # To be set from Env Variable
+    'CLIENT_SECRET': "", # To be set from Env Variable
+    'FLASK_PORT': 5000
 }
