@@ -1,0 +1,69 @@
+2020-02-29 17:32:07,326 - All the environment variable required are set
+2020-02-29 17:32:07,424 -  * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-29 17:32:15,877 - Home page accessed
+2020-02-29 17:32:15,893 - 127.0.0.1 - - [29/Feb/2020 17:32:15] "[37mGET / HTTP/1.1[0m" 200 -
+2020-02-29 17:32:17,334 - Client requested to connect to Xero. Fetching Xero request URL from Xero
+2020-02-29 17:32:17,335 - Request URL successfully received. Redirecting to url: https://login.xero.com/identity/connect/authorize?response_type=code&client_id=C3646E7F03C2461AA81174969BAF3ED7&redirect_uri=https%3A%2F%2Flocalhost%3A5000%2Flogin%2Fhome&scope=accounting.contacts.read+accounting.settings.read
+2020-02-29 17:32:17,336 - 127.0.0.1 - - [29/Feb/2020 17:32:17] "[32mGET /login HTTP/1.1[0m" 302 -
+2020-02-29 17:32:23,132 - Xero credentials accepted. Successfully redirected back. Getting the token and setting up the oauth client
+2020-02-29 17:32:23,670 - Token received. Client is ready to fetch xero data
+2020-02-29 17:32:23,671 - Token successfully received from Xero. Application is ready to fetch data from Xero
+2020-02-29 17:32:23,712 - 127.0.0.1 - - [29/Feb/2020 17:32:23] "[37mGET /login/home?code=f3f2ea68d5f656f4fd90e5b37f298994596b59f198d183a8dfa858ce75f941d2&scope=accounting.contacts.read%20accounting.settings.read HTTP/1.1[0m" 200 -
+2020-02-29 17:32:31,260 - Client requested to fetch accounts data
+2020-02-29 17:32:31,823 - Data successfully received
+2020-02-29 17:32:31,823 - 127.0.0.1 - - [29/Feb/2020 17:32:31] "[37mGET /accounts HTTP/1.1[0m" 200 -
+2020-02-29 17:32:33,361 - Client requested to fetch vendor data
+2020-02-29 17:32:33,849 - Data successfully received
+2020-02-29 17:32:33,849 - 127.0.0.1 - - [29/Feb/2020 17:32:33] "[37mGET /vendors HTTP/1.1[0m" 200 -
+2020-02-29 17:32:39,012 - Home page accessed
+2020-02-29 17:32:39,014 - 127.0.0.1 - - [29/Feb/2020 17:32:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-02-29 17:32:39,266 - Home page accessed
+2020-02-29 17:32:39,266 - 127.0.0.1 - - [29/Feb/2020 17:32:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-02-29 17:32:41,220 - Client requested to connect to Xero. Fetching Xero request URL from Xero
+2020-02-29 17:32:41,220 - Request URL successfully received. Redirecting to url: https://login.xero.com/identity/connect/authorize?response_type=code&client_id=C3646E7F03C2461AA81174969BAF3ED7&redirect_uri=https%3A%2F%2Flocalhost%3A5000%2Flogin%2Fhome&scope=accounting.contacts.read+accounting.settings.read
+2020-02-29 17:32:41,221 - 127.0.0.1 - - [29/Feb/2020 17:32:41] "[32mGET /login HTTP/1.1[0m" 302 -
+2020-02-29 17:32:58,758 - Xero credentials accepted. Successfully redirected back. Getting the token and setting up the oauth client
+2020-02-29 17:32:59,363 - Token received. Client is ready to fetch xero data
+2020-02-29 17:32:59,363 - Token successfully received from Xero. Application is ready to fetch data from Xero
+2020-02-29 17:32:59,364 - 127.0.0.1 - - [29/Feb/2020 17:32:59] "[37mGET /login/home?code=4070471621d5a7abb7fb371a92b4a8fb259d19e3df479e7b412fed6c0dcb89f3&scope=accounting.contacts.read%20accounting.settings.read HTTP/1.1[0m" 200 -
+2020-02-29 17:33:01,620 - Client requested to fetch accounts data
+2020-02-29 17:33:02,103 - Data successfully received
+2020-02-29 17:33:02,104 - 127.0.0.1 - - [29/Feb/2020 17:33:02] "[37mGET /accounts HTTP/1.1[0m" 200 -
+2020-02-29 17:33:02,107 - Client requested to fetch accounts data
+2020-02-29 17:33:02,591 - Data successfully received
+2020-02-29 17:33:02,592 - 127.0.0.1 - - [29/Feb/2020 17:33:02] "[37mGET /accounts HTTP/1.1[0m" 200 -
+2020-02-29 17:33:04,023 - Client requested to fetch vendor data
+2020-02-29 17:33:04,534 - Data successfully received
+2020-02-29 17:33:04,535 - 127.0.0.1 - - [29/Feb/2020 17:33:04] "[37mGET /vendors HTTP/1.1[0m" 200 -
+2020-02-29 22:55:40,455 - All the environment variable required are set
+2020-02-29 22:55:40,671 -  * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-02-29 22:55:49,416 - Home page accessed
+2020-02-29 22:55:49,459 - 127.0.0.1 - - [29/Feb/2020 22:55:49] "[37mGET / HTTP/1.1[0m" 200 -
+2020-02-29 22:55:50,775 - Client requested to connect to Xero. Fetching Xero request URL from Xero
+2020-02-29 22:55:50,776 - Request URL successfully received. Redirecting to url: https://login.xero.com/identity/connect/authorize?response_type=code&client_id=C3646E7F03C2461AA81174969BAF3ED7&redirect_uri=https%3A%2F%2Flocalhost%3A5000%2Flogin%2Fhome&scope=accounting.contacts.read+accounting.settings.read
+2020-02-29 22:55:50,778 - 127.0.0.1 - - [29/Feb/2020 22:55:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2020-02-29 22:55:56,884 - Xero credentials accepted. Successfully redirected back. Getting the token and setting up the oauth client
+2020-02-29 22:55:57,354 - Token received. Client is ready to fetch xero data
+2020-02-29 22:55:57,354 - Token successfully received from Xero. Application is ready to fetch data from Xero
+2020-02-29 22:55:57,375 - 127.0.0.1 - - [29/Feb/2020 22:55:57] "[37mGET /login/home?code=f84be679fdd7cb678dc511c49c75937a0dbebe390a911468921e40b46b46924b&scope=accounting.contacts.read%20accounting.settings.read HTTP/1.1[0m" 200 -
+2020-02-29 22:55:59,146 - Client requested to fetch vendor data
+2020-02-29 22:55:59,703 - Data successfully received
+2020-02-29 22:55:59,703 - 127.0.0.1 - - [29/Feb/2020 22:55:59] "[37mGET /vendors HTTP/1.1[0m" 200 -
+2020-02-29 22:56:01,380 - Client requested to fetch accounts data
+2020-02-29 22:56:01,828 - Data successfully received
+2020-02-29 22:56:01,829 - 127.0.0.1 - - [29/Feb/2020 22:56:01] "[37mGET /accounts HTTP/1.1[0m" 200 -
+2020-02-29 22:56:47,198 - Home page accessed
+2020-02-29 22:56:47,198 - 127.0.0.1 - - [29/Feb/2020 22:56:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-02-29 22:56:48,789 - Client requested to connect to Xero. Fetching Xero request URL from Xero
+2020-02-29 22:56:48,789 - Request URL successfully received. Redirecting to url: https://login.xero.com/identity/connect/authorize?response_type=code&client_id=C3646E7F03C2461AA81174969BAF3ED7&redirect_uri=https%3A%2F%2Flocalhost%3A5000%2Flogin%2Fhome&scope=accounting.contacts.read+accounting.settings.read
+2020-02-29 22:56:48,790 - 127.0.0.1 - - [29/Feb/2020 22:56:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2020-02-29 22:57:22,643 - Xero credentials accepted. Successfully redirected back. Getting the token and setting up the oauth client
+2020-02-29 22:57:23,247 - Token received. Client is ready to fetch xero data
+2020-02-29 22:57:23,247 - Token successfully received from Xero. Application is ready to fetch data from Xero
+2020-02-29 22:57:23,248 - 127.0.0.1 - - [29/Feb/2020 22:57:23] "[37mGET /login/home?code=3ea89d273b0ccef429809ef0838c30710685f2cdcdae2d378951b023dac11339&scope=accounting.contacts.read%20accounting.settings.read HTTP/1.1[0m" 200 -
+2020-02-29 22:57:24,229 - Client requested to fetch accounts data
+2020-02-29 22:57:24,930 - Data successfully received
+2020-02-29 22:57:24,931 - 127.0.0.1 - - [29/Feb/2020 22:57:24] "[37mGET /accounts HTTP/1.1[0m" 200 -
+2020-02-29 22:57:25,713 - Client requested to fetch vendor data
+2020-02-29 22:57:26,688 - Data successfully received
+2020-02-29 22:57:26,704 - 127.0.0.1 - - [29/Feb/2020 22:57:26] "[37mGET /vendors HTTP/1.1[0m" 200 -
