@@ -10,8 +10,7 @@ This application assumes that we need to get data for ONLY the latest created te
 
 ## Live Deployment 
 To quickly test out the application, you can navigate to the following link and follow the instructions.
-[Link to deployment] (https://calm-retreat-69658.herokuapp.com/)
-
+[Link to deployment](https://calm-retreat-69658.herokuapp.com/)
 ## Deployment
 This section demonstrate how to deploy it locally.
 ## Requirements:
